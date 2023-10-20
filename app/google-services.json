@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "898820201417",
+    "project_id": "simplerloginsignup",
+    "storage_bucket": "simplerloginsignup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898820201417:android:10056ce891f33c61efa618",
+        "android_client_info": {
+          "package_name": "com.example.simplerloginsignup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcwy8ygff1nhl1Ypw1oQETkkngneDp88M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
