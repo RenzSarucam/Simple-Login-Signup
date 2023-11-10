@@ -4,29 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/peakpx"
+    android:background="@drawable/purple"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
         android:text="Welcome"
-        android:id="@+id/welcome"
-        android:layout_marginTop="250dp"
-        android:textColor="@color/lavender"
-        android:textSize="26sp"
+        android:textColor="@color/white"
+        android:textSize="50sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/userName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Miss Keana"
         android:id="@+id/userName"
-        android:textColor="@color/lavender"
+        android:textColor="@color/black"
         android:textSize="26sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,16 +34,47 @@
         app:layout_constraintTop_toBottomOf="@id/welcome"/>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Log Out"
-        android:id="@+id/logout"
-        android:textSize="20sp"
-        android:padding="12dp"
-        android:layout_marginTop="10dp"
-        app:cornerRadius = "15dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/red"
+        android:layout_width="125dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"
+        android:text="RED"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:cornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/userName"/>
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userName" />
+
+    <Button
+        android:id="@+id/blue"
+        android:layout_width="125dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="148dp"
+        android:padding="10dp"
+        android:text="BLUE"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userName" />
+
+    <Button
+        android:id="@+id/green"
+        android:layout_width="125dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="244dp"
+        android:padding="10dp"
+        android:text="GREEN"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userName" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
